@@ -256,7 +256,7 @@ app.put("/account/:id", (req, res) =>{
     });
 })
 
-
-app.listen(8888, ()=>{
+//chỗ này mấy ô để 8080 trong listen Apache Xampp là bị đè cổng
+app.listen(8080, ()=>{
     console.log("connecting 1")
 });
