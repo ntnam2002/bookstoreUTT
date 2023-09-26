@@ -12,7 +12,7 @@ const db = mysql.createConnection({
 });
 
 
-// tôi là hùng
+// tôi là hùng nguyễn đắc
 
 app.use(express.json())
 app.use(cors())
