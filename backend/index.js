@@ -11,6 +11,9 @@ const db = mysql.createConnection({
     database: 'bookstore'
 });
 
+
+// tôi là hùng nguyễn đắc
+
 app.use(express.json())
 app.use(cors())
 
